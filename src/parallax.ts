@@ -20,7 +20,7 @@ export const useContinuousParallax = (compRef: Ref<HTMLElement>) => {
   });
 
   onBeforeUnmount(() => {
-    compRef.value.parentElement?.removeEventListener(scrollListener);
+    compRef.value.parentElement?.removeEventListener("scroll", scrollListener);
   });
 
   return x;
