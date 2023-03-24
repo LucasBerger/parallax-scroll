@@ -1,0 +1,27 @@
+{
+  "name": "vue-parallax-scroll",
+  "version": "1.0.0",
+  "description": "A simple Vue Library to help build parallax animations",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasBerger/parallax-scroll.git"
+  },
+  "keywords": [
+    "vue",
+    "parallax",
+    "scroll"
+  ],
+  "author": "Lucas Berger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasBerger/parallax-scroll/issues"
+  },
+  "homepage": "https://github.com/LucasBerger/parallax-scroll#readme",
+  "devDependencies": {
+    "vue": "^3.2.47"
+  }
+}
